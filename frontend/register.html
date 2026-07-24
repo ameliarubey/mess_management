@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Mess Management</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="form-box">
+    <h2>Create Account</h2>
+
+    <form id="registerForm">
+
+        <!-- Name -->
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <!-- Email -->
+        <input type="email" id="email" placeholder="Email" required>
+
+        <!-- Password -->
+        <input type="password" id="password" placeholder="Password" required>
+
+        <!-- Confirm Password -->
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+        <!-- Role -->
+        <select id="role" required>
+            <option value="">Select Role</option>
+            <option value="student">Student</option>
+            <option value="admin">Admin</option>
+        </select>
+
+        <!-- Button -->
+        <button type="submit">Register</button>
+
+        <!-- Link -->
+        <p>Already have an account? <a href="login.html">Login</a></p>
+
+    </form>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
